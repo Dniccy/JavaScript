@@ -26,20 +26,23 @@
     </p>
 
     <div id="content">
-        <p id="adultcontent" style="display: none">
+        <p id="adultContent" style="display: none">
             Welcome to the adult section
         </p>
-        <p id="minorcontent" style="display: none">
+        <p id="minorContent" style="display: none">
             Welcome to the minor section
         </p>
     </div>
 
+    <script>
+        var myAge = 29;
 
-
-
-
-
-
+        if (myAge >= 18) {
+            document.getElementById("adultContent").style.display = "block";
+        } else {
+            document.getElementById("minorContent").style.display = "block";
+}
+    </script>
 </body>
 </html>
 

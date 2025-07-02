@@ -8,12 +8,13 @@ function changeText() {
     var heading = document.getElementById("demo")
     heading.textContent = "See I'm learning!";    
 }
-//Variables learning 
+/*Variables learning
 var myAge = 29;
 
 if (myAge >=18){
     console.log ("You are and adult.");
 } else {
     console.log("You are a minor.");
-}
+}*/
 
+//Age restriction

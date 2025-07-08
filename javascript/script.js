@@ -1,13 +1,14 @@
-//Alert function learning 
+/*Alert function learning 
 window.onload = function() {
     alert ("I'm learning JavaScript be kind");
     console.log("The web page has loaded");
-}
+}*/
 //Text change learning 
 function changeText() {
     var heading = document.getElementById("demo")
     heading.textContent = "See I'm learning!";    
 }
+/*
 //Variables learning
 var myAge = 29;
 
@@ -24,7 +25,8 @@ if (myAge >= 18) {
     document.getElementById("adultContent").style.display = "block";
 } else {
     document.getElementById("minorContent").style.display = "block";
-}
+}*/
+/*
 //Library search
 let library = [
 "Harry Potter",
@@ -62,3 +64,15 @@ function searchBook (){
 
 document.getElementById('addBookForm').addEventListener('submit, addBook');
 displayBooks();
+*/
+let person = {
+    name:"Dom",
+    age: 29,
+    greet: function() {
+        return(
+            "Hello, my name is" + this.name + "and I'm" + this.age + "years old."
+        );
+    },
+};
+// Accessing the method
+console.log(person.greet());//Output: Hello, my name is Dom and im 29 years old.

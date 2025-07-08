@@ -1,3 +1,4 @@
+/*
 const character = {
     hairColor:'brown',
     eyeColor: 'blue',
@@ -8,8 +9,8 @@ const character = {
         x: 0,
         y: 0,
     },
-    inventory: ['sword', 'helmet', 'shirt', 'map']  
-}
+    inventory: ['sword', 'helmet', 'shirt', 'map'],  
+};
 
 const chest = {
     isOpen: false,
@@ -22,5 +23,7 @@ const chest = {
       this.coins = 0;
       console.log("chest opened! Collected 10 coins!");  
     }
-    }
-}
+    },
+};
+
+console.log("Character object", character);*/

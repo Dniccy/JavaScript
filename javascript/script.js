@@ -1,4 +1,4 @@
-/*Alert function learning 
+//Alert function learning 
 window.onload = function() {
     alert ("I'm learning JavaScript be kind");
     console.log("The web page has loaded");
@@ -24,8 +24,8 @@ if (myAge >= 18) {
     document.getElementById("adultContent").style.display = "block";
 } else {
     document.getElementById("minorContent").style.display = "block";
-}*/
-
+}
+//Library search
 let library = [
 "Harry Potter",
 "Lord of the Rings",

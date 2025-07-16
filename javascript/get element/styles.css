@@ -9,11 +9,17 @@
 }
 
 .highlight-paragraph {
-    background-color: #333;        /* Dark grey background */
-    color: white;                  /* Text color for contrast */
-    padding: 15px;                 /* Space inside the paragraph */
-    border-radius: 10px;           /* Rounded corners */
-    width: fit-content;            /* Shrinks to fit the content */
-    margin: 20px;                  /* Space around the paragraph */
+    background-color: #333;        
+    color: white;                  
+    padding: 15px;                 
+    border-radius: 10px;           
+    width: fit-content;            
+    margin: 20px;                  
     font-family: Arial, sans-serif;
+}
+
+.highlight {
+    border: 5px solid yellow;
+    border-radius: 10px;
+    background-color: green;
 }

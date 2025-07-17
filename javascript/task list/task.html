@@ -9,14 +9,16 @@
 </head>
 <body>
 
-  <h1>Task List</h1>
+  <h1>Task Manager</h1>
 
- <input type="text" id="taskInput" placeholder="Enter a task" />
-  <button onclick="addTask()">Add Task</button>
-  <button onclick="removeTasks()">Remove All Tasks</button>
+  <!-- Task input and buttons -->
+  <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <input type="text" id="taskInput" placeholder="Enter a task" />
+    <button onclick="addTask()">Add Task</button>
+  </div>
 
+  <!-- Task list -->
   <ul id="taskList"></ul>
-
   
 </body>
 

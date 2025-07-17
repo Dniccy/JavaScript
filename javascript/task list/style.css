@@ -1,0 +1,12 @@
+    body {
+    font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #taskList li {
+      margin: 5px 0;
+      list-style-type: none;
+    }
+    .completed {
+      text-decoration: line-through;
+      color: gray;
+    }

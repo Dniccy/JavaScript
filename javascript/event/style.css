@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+#imageUrl {
+  width: 300px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+#addImageBtn {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.gallery-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: white;
+  position: relative;
+  max-width: 200px;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.remove-btn {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 12px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
